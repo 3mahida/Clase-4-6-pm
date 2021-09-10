@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MiPrimeraWeb</title>
+    <style>
+        table, th, td {
+            border: 1px solid rgb(29, 146, 0);
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 300px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cds</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Camisetas</td>
+                <td>$15k</td>
+            </tr>
+            <tr>
+                <td>Uniforme Personalizado</td>
+                <td>$82.000 </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>$97.000</td>
+
+        </tfoot>
+    </table>
+    <ul>
+        <li>Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+    </ul>
+    <ol>
+        <li value ="50" >Elemento1</li>
+        <li>Elemento2</li>
+        <li>Elemento3</li>
+        <li>Elemento4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-roman;"> sub elemento 1</li>
+                <li style="list-style-type: circle;"> sub elemento 2</li>
+                <li style="list-style-type: square;"> sub elemento 3</li>
+                <li style="list-style-type: lower-roman;"> sub elemento 4</li>
+                
+            </ol>
+        </li>
+    </ol>
+    <form action="/formulario" method="POST">
+        <label for="nombre">Escriba su nombre:</label>
+        <input value="chanchito"   type="text" id="nombre" name="nombre" placeholder="Nombre"/>
+        <br>
+        <label for="apellido">Escriba su Apellido:</label>
+        <input value="feliz" type="text" id="apellido" name="apellido" placeholder="Apellido"/>
+        <br>
+        <label for="comentario">Deje un comentario:</label>
+        <br>
+        <textarea cols="50" rows="10" id="comentario" placeholder="comentario" name="Comentario"> Acepto valor por defecto</textarea>
+        <br>
+        <!--<input type="submit" />-->
+        <button type= "button">Boton</button>
+        <button type= "reset">Limpiar</button>
+        <button type= "submit">Submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Mi sexto quinto</h6>
+    <p>Chanchito feliz está muy feliz.</p>
+    <hr>
+    <p>lala la lala laaala</p> 
+    <h2>Chanchito Felipe</h2>
+    <p>mas texto pero
+        este <span style="color:darkblue"> es mucho mas grande </span> 
+        y lo voy a referenciar <br>
+        con una etiqueta de spam.
+    </p>
+    <!-- este texto no sale en la pagina, es un comentario-->
+    <a target="_blank" href="https://www.google.com">Ir a Google</a>
+    <br>
+
+    <img src="img/imagen1.jpg" width="300" height="200" /> 
+    
+</html>

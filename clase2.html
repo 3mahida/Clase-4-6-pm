@@ -1,0 +1,60 @@
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Formularios</title>
+    </head>
+        <body>Manejo de formularios<br>
+            <form action="pagina x" method="post">
+                <p>Ingrese su usuario:</p><br>
+                <input type="text" name="user" size="20"/>
+                <p>Ingrese su contraseña:</p><br>
+                <input type="password" name="contraseña" size="20"/>
+                <br>
+                <p>Ingrese su queja:</p>
+                <textarea name="quejas" id="" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <input type="submit" value="enviar"/>
+                <input type="reset" value="borrar"/>
+                <br>
+                <br>
+                <input type="checkbox">java<br/>
+                <input type="radio">java<br/>
+                <input type="radio">java<br/>
+                <br/>
+
+                <select name="ciudades" id="">
+                    <option value="1">Armenia</option>
+                    <option value="1">Barranquilla</option>
+                    <option value="1">Cartagena</option>
+                    <option value="1">Darien</option>
+                    <option value="1">Bogotá</option>
+                    <option value="1">Cali</option>
+                </select>
+
+                <p>Presione Ctrl para seleccionar varios</p>
+                <select name="ciudades[]" id="" multiple>
+                    <option value="1">Armenia</option>
+                    <option value="1">Barranquilla</option>
+                    <option value="1">Cartagena</option>
+                    <option value="1">Darien</option>
+                    <option value="1">Bogotá</option>
+                    <option value="1">Cali</option>
+                </select>
+                <p>Selecciona artículos</p>
+                <select name="artículos" id="" multiple>
+                    <optgroup label="herramientas">
+                        <option value="1">martillo</option>
+                        <option value="1">pinza</option>
+                        <option value="1">serrucho</option>
+                    </optgroup>
+                    <optgroup label="prendas">
+                        <option value="1">camisa</option>
+                        <option value="1">pantalón</option>
+                        <option value="1">botas</option>
+                    </optgroup>
+                </select>
+            </form>
+
+        </body>
+</html>

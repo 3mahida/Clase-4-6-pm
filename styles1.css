@@ -1,0 +1,34 @@
+/*
+este es un comentario
+todo 
+*/
+
+p,h4 {
+    color: violet;
+}
+
+.uno{
+    color: red;
+}
+
+#uno{
+    color: blue;
+    font-size: 40px;
+}
+
+p.a{
+    color: red;
+    font-size: 30px;
+}
+
+h1.dos{
+    color:yellowgreen; 
+}
+
+p[name$="unoo"]{ /*todo lo que contenga unoo cambia a ese color*/
+    color:lime;
+}
+
+p[name*="uno"]{ /*todo lo que al menos contenga uno cambia a ese color*/
+    color: violet;
+}
